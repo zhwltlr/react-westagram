@@ -1,0 +1,90 @@
+[
+  {
+    "id": 1,
+    "username": "zhwltlr",
+    "profileimg": "/images/zhwltlr.png",
+    "mainimg": "/images/hous.jpg",
+    "text": "오늘도 좋은 하루~^^",
+    "postdate": "42분전",
+    "likeuser": "jyp_0808",
+    "likeuserimg": "/images/flower.jpg",
+    "likenum": "10"
+  },
+  {
+    "id": 2,
+    "username": "jyinfo_music",
+    "profileimg": "/images/song.jpg",
+    "mainimg": "/images/maple.jpg",
+    "text": "가을 단풍 예쁘다...^^",
+    "postdate": "3시간 전",
+    "likeuser": "jyfav_conan",
+    "likeuserimg": "/images/dog.jpg",
+    "likenum": "95"
+  },
+  {
+    "id": 3,
+    "username": "samsunglionking",
+    "profileimg": "/images/baseball.png",
+    "mainimg": "/images/baseball2.jpg",
+    "text": "이제 매일 야없날.. 어떻게 버텨..?",
+    "postdate": "2시간 전",
+    "likeuser": "jyfav_itzy",
+    "likeuserimg": "/images/itzy.jpg",
+    "likenum": "78"
+  },
+  {
+    "id": 4,
+    "username": "alpsprotector",
+    "profileimg": "/images/coding.jpg",
+    "mainimg": "/images/switzerland.jpg",
+    "text": "오랜만에 뒷산 등산...^^",
+    "postdate": "3시간 전",
+    "likeuser": "jyinfo_song",
+    "likeuserimg": "/images/song.jpg",
+    "likenum": "19"
+  },
+  {
+    "id": 5,
+    "username": "ihavenoid",
+    "profileimg": "/images/maple.jpg",
+    "mainimg": "/images/christmas.jpg",
+    "text": "크리스마스도 금방 오겠네~~^^*",
+    "postdate": "9시간 전",
+    "likeuser": "zhwltlr",
+    "likeuserimg": "/images/zhwltlr.png",
+    "likenum": "28"
+  },
+  {
+    "id": 6,
+    "username": "jyinfo_dog",
+    "profileimg": "/images/dog.jpg",
+    "mainimg": "/images/mask.jpg",
+    "text": "요즘 미세먼지가 심하니 다들 조심...^^",
+    "postdate": "17시간 전",
+    "likeuser": "jyp_0808",
+    "likeuserimg": "/images/flower.jpg",
+    "likenum": "36"
+  },
+  {
+    "id": 7,
+    "username": "jyfav_itzy",
+    "profileimg": "/images/itzy.jpg",
+    "mainimg": "/images/concert.jpg",
+    "text": "연말 콘서트 한 번 가보고 싶다...",
+    "postdate": "11시간 전",
+    "likeuser": "jyinfo_movie",
+    "likeuserimg": "/images/movie.jpg",
+    "likenum": "212"
+  },
+  {
+    "id": 8,
+    "username": "jyfav_conan",
+    "profileimg": "/images/detective.png",
+    "mainimg": "/images/climbing.jpg",
+    "text": "오랜만에 클라이밍 했는데 여전히 좋다!!",
+    "postdate": "7시간 전",
+    "likeuser": "zheldwoddl",
+    "likeuserimg": "/images/hous.jpg",
+    "likenum": "36"
+  }
+]
