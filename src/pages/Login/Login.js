@@ -1,31 +1,31 @@
-import './Login.scss'
-import 'bootstrap/dist/css/bootstrap.min.css'
-import { Button } from 'react-bootstrap'
-import { Link, useNavigate } from 'react-router-dom'
-import { useState } from 'react'
+import "./Login.scss";
+import "bootstrap/dist/css/bootstrap.min.css";
+import { Button } from "react-bootstrap";
+import { Link, useNavigate } from "react-router-dom";
+import { useState } from "react";
 
 function Login() {
-  const navigate = useNavigate()
-  const [idValue, setIdValue] = useState('')
-  const [pwValue, setPwValue] = useState('')
+  const navigate = useNavigate();
+  const [idValue, setIdValue] = useState("");
+  const [pwValue, setPwValue] = useState("");
 
   const saveUserId = (e) => {
-    setIdValue(e.target.value)
-  }
+    setIdValue(e.target.value);
+  };
   const saveUserPw = (e) => {
-    setPwValue(e.target.value)
-  }
+    setPwValue(e.target.value);
+  };
   const inputEnter = (e) => {
-    if (e.code === 'Enter') {
-      navigate('/main')
+    if (e.code === "Enter") {
+      navigate("/main");
     }
-  }
+  };
 
   const validator =
-    idValue && idValue.includes('@') && pwValue && pwValue.length >= 5
+    idValue && idValue.includes("@") && pwValue && pwValue.length >= 5;
 
   return (
-    <main className='login'>
+    <main className="login">
       <div className="loginContainer">
         <div className="inputContainer">
           <div className="loginLogo">westagram</div>
@@ -46,8 +46,8 @@ function Login() {
             <Button
               onClick={() => {
                 validator
-                  ? navigate('/main')
-                  : alert('아이디와 비밀번호를 확인해주세요')
+                  ? navigate("/main")
+                  : alert("아이디와 비밀번호를 확인해주세요");
               }}
               variant="primary"
               id="loginBtn"
@@ -55,7 +55,7 @@ function Login() {
             >
               로그인
             </Button>
-            {/* <Link to="/main">main으로 이동</Link> */}
+            <Link to="/main">main으로 이동</Link>
           </form>
         </div>
         <p>
@@ -63,7 +63,7 @@ function Login() {
         </p>
       </div>
     </main>
-  )
+  );
 }
 
-export default Login
+export default Login;
