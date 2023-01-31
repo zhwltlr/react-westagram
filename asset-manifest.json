@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/react-westagram/static/css/main.8c49848e.css",
-    "main.js": "/react-westagram/static/js/main.017dd853.js",
+    "main.js": "/react-westagram/static/js/main.460db7ef.js",
     "index.html": "/react-westagram/index.html",
     "main.8c49848e.css.map": "/react-westagram/static/css/main.8c49848e.css.map",
-    "main.017dd853.js.map": "/react-westagram/static/js/main.017dd853.js.map"
+    "main.460db7ef.js.map": "/react-westagram/static/js/main.460db7ef.js.map"
   },
   "entrypoints": [
     "static/css/main.8c49848e.css",
-    "static/js/main.017dd853.js"
+    "static/js/main.460db7ef.js"
   ]
 }
