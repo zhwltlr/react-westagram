@@ -7,6 +7,9 @@
 
 <a href="https://zhwltlr.github.io/react-westagram/">https://zhwltlr.github.io/react-westagram/</a>
 
+- id : @ 포함
+- pw : 5글자 이상
+
 <video src="https://user-images.githubusercontent.com/100506719/211497290-16b61f97-cbfb-43c9-8c47-feb374ba6f0b.mp4" align="center" width="1000px"></video>
 
 ## 구현 목적

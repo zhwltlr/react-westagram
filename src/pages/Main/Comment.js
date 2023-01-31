@@ -11,10 +11,18 @@ const Comment = ({ comment, i, onDelete }) => {
         onClick={() => {
           setTurnRed(!turnRed);
         }}
-        src={turnRed === false ? "/images/heart.png" : "/images/redheart.png"}
+        src={
+          turnRed === false
+            ? `${process.env.PUBLIC_URL}/images/heart.png`
+            : `${process.env.PUBLIC_URL}/images/redheart.png`
+        }
         alt="heart"
       />
-      <img onClick={onDelete} src="/images/delete.png" alt="delete" />
+      <img
+        onClick={onDelete}
+        src={`${process.env.PUBLIC_URL}/images/delete.png`}
+        alt="delete"
+      />
     </div>
   );
 };

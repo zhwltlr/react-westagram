@@ -33,13 +33,20 @@ const Feed = ({ feedinfo }) => {
       <div className="profileInfo">
         <div className="user">
           <div className="profilePic">
-            <img src={feedinfo.profileimg} alt="profileImg" />
+            <img
+              src={`${process.env.PUBLIC_URL}${feedinfo.profileimg}`}
+              alt="profileImg"
+            />
           </div>
           <p className="username">{feedinfo.username}</p>
         </div>
-        <img src="/images/option.png" alt="option" />
+        <img src={`${process.env.PUBLIC_URL}/images/option.png`} alt="option" />
       </div>
-      <img src={feedinfo.mainimg} alt="mainImg" className="mainImg" />
+      <img
+        src={`${process.env.PUBLIC_URL}${feedinfo.mainimg}`}
+        alt="mainImg"
+        className="mainImg"
+      />
       <div className="postContent">
         <div className="postIcons">
           <ul>
@@ -50,27 +57,39 @@ const Feed = ({ feedinfo }) => {
                 }}
                 src={
                   turnRed === false
-                    ? "/images/heart.png"
-                    : "/images/redheart.png"
+                    ? `${process.env.PUBLIC_URL}/images/heart.png`
+                    : `${process.env.PUBLIC_URL}/images/redheart.png`
                 }
                 alt="heart"
               />
             </li>
             <li>
-              <img src="/images/chat.png" alt="chat" />
+              <img
+                src={`${process.env.PUBLIC_URL}/images/chat.png`}
+                alt="chat"
+              />
             </li>
             <li>
-              <img src="/images/upload.png" alt="upload" />
+              <img
+                src={`${process.env.PUBLIC_URL}/images/upload.png`}
+                alt="upload"
+              />
             </li>
             <li className="postSave">
-              <img src="/images/save-instagram.png" alt="save" />
+              <img
+                src={`${process.env.PUBLIC_URL}/images/save-instagram.png`}
+                alt="save"
+              />
             </li>
           </ul>
         </div>
         <div className="likes">
           <div className="user">
             <div className="profilePic">
-              <img src={feedinfo.likeuserimg} alt="profileImg" />
+              <img
+                src={`${process.env.PUBLIC_URL}${feedinfo.likeuserimg}`}
+                alt="profileImg"
+              />
             </div>
             <span className="username">{feedinfo.likeuser}</span>
           </div>
@@ -89,7 +108,7 @@ const Feed = ({ feedinfo }) => {
         <p className="postDate">{feedinfo.postdate}</p>
       </div>
       <div className="commentBox">
-        <img src="/images/smile.png" alt="smile" />
+        <img src={`${process.env.PUBLIC_URL}/images/smile.png`} alt="smile" />
         <div className="newComments">
           <input
             type="text"

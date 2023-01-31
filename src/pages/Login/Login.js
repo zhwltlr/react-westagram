@@ -55,7 +55,7 @@ function Login() {
             >
               로그인
             </Button>
-            <Link to="/main">main으로 이동</Link>
+            {/* <Link to="/main">main으로 이동</Link> */}
           </form>
         </div>
         <p>

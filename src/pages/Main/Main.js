@@ -1,8 +1,8 @@
 import { useState } from "react";
-import "./Main.scss";
 import SearchId from "./SearchId";
 import ASIDE_LIST from "./data";
 import FeedList from "./FeedList";
+import "./Main.scss";
 
 function Mainjiyoung() {
   const [searchInput, setSearchInput] = useState("");
@@ -13,12 +13,15 @@ function Mainjiyoung() {
         <div className="navContent">
           <div className="navInner">
             <div className="logoBox">
-              <img src="/images/instagram.png" alt="logo" />
+              <img
+                src={`${process.env.PUBLIC_URL}/images/instagram.png`}
+                alt="logo"
+              />
               <span className="mainLogo">westagram</span>
             </div>
             <div className="searchBox">
               <img
-                src="/images/search.png"
+                src={`${process.env.PUBLIC_URL}/images/search.png`}
                 alt="search"
                 className="searchImg"
               />
@@ -37,22 +40,40 @@ function Mainjiyoung() {
               )}
             </div>
             <div className="navIcon">
-              <img src="/images/explore.png" alt="explore" />
-              <img src="/images/heart.png" alt="heart" />
+              <img
+                src={`${process.env.PUBLIC_URL}/images/explore.png`}
+                alt="explore"
+              />
+              <img
+                src={`${process.env.PUBLIC_URL}/images/heart.png`}
+                alt="heart"
+              />
               <div className="navProfile">
-                <img src="/images/profile.png" alt="profile" />
+                <img
+                  src={`${process.env.PUBLIC_URL}/images/profile.png`}
+                  alt="profile"
+                />
                 <div className="hidemenu">
                   <ul>
                     <li>
-                      <img src="/images/profile.png" alt="profile" />
+                      <img
+                        src={`${process.env.PUBLIC_URL}/images/profile.png`}
+                        alt="profile"
+                      />
                       프로필
                     </li>
                     <li>
-                      <img src="/images/save-instagram.png" alt="save" />
+                      <img
+                        src={`${process.env.PUBLIC_URL}/images/save-instagram.png`}
+                        alt="save"
+                      />
                       저장됨
                     </li>
                     <li>
-                      <img src="/images/settings.png" alt="settings" />
+                      <img
+                        src={`${process.env.PUBLIC_URL}/images/settings.png`}
+                        alt="settings"
+                      />
                       설정
                     </li>
                     <li className="logout">로그아웃</li>
@@ -82,7 +103,10 @@ function Mainjiyoung() {
               <div className="profileInfo">
                 <div className="user">
                   <div className="profilePic">
-                    <img src="/images/zhwltlr.png" alt="profileImg" />
+                    <img
+                      src={`${process.env.PUBLIC_URL}/images/zhwltlr.png`}
+                      alt="profileImg"
+                    />
                   </div>
                   <p className="userStatus">
                     <span className="username">zhwltlr</span>
@@ -100,7 +124,10 @@ function Mainjiyoung() {
               <div className="rightBox">
                 <div className="user">
                   <div className="profilePic">
-                    <img src="/images/song.jpg" alt="profileImg" />
+                    <img
+                      src={`${process.env.PUBLIC_URL}/images/song.jpg`}
+                      alt="profileImg"
+                    />
                   </div>
                   <p className="userStatus">
                     <span className="username">jyinfo_music</span>
@@ -109,7 +136,10 @@ function Mainjiyoung() {
                 </div>
                 <div className="user">
                   <div className="profilePic">
-                    <img src="/images/dog.jpg" alt="profileImg" />
+                    <img
+                      src={`${process.env.PUBLIC_URL}/images/dog.jpg`}
+                      alt="profileImg"
+                    />
                   </div>
                   <p className="userStatus">
                     <span className="username">jyinfo_dog</span>
@@ -118,7 +148,10 @@ function Mainjiyoung() {
                 </div>
                 <div className="user">
                   <div className="profilePic">
-                    <img src="/images/movie.jpg" alt="profileImg" />
+                    <img
+                      src={`${process.env.PUBLIC_URL}/images/movie.jpg`}
+                      alt="profileImg"
+                    />
                   </div>
                   <p className="userStatus">
                     <span className="username">jyinfo_movie</span>
@@ -127,7 +160,10 @@ function Mainjiyoung() {
                 </div>
                 <div className="user">
                   <div className="profilePic">
-                    <img src="/images/christmas.jpg" alt="profileImg" />
+                    <img
+                      src={`${process.env.PUBLIC_URL}/images/christmas.jpg`}
+                      alt="profileImg"
+                    />
                   </div>
                   <p className="userStatus">
                     <span className="username">christmas_soon</span>
@@ -136,7 +172,10 @@ function Mainjiyoung() {
                 </div>
                 <div className="user">
                   <div className="profilePic">
-                    <img src="/images/trip.jpg" alt="profileImg" />
+                    <img
+                      src={`${process.env.PUBLIC_URL}/images/trip.jpg`}
+                      alt="profileImg"
+                    />
                   </div>
                   <p className="userStatus">
                     <span className="username">gonnatrip</span>
@@ -145,7 +184,10 @@ function Mainjiyoung() {
                 </div>
                 <div className="user">
                   <div className="profilePic">
-                    <img src="/images/itzy.jpg" alt="profileImg" />
+                    <img
+                      src={`${process.env.PUBLIC_URL}/images/itzy.jpg`}
+                      alt="profileImg"
+                    />
                   </div>
                   <p className="userStatus">
                     <span className="username">itzy.all.in.us</span>
@@ -165,7 +207,10 @@ function Mainjiyoung() {
               <div className="rightBox">
                 <div className="user">
                   <div className="profilePic">
-                    <img src="/images/detective.png" alt="profileImg" />
+                    <img
+                      src={`${process.env.PUBLIC_URL}/images/detective.png`}
+                      alt="profileImg"
+                    />
                   </div>
                   <p className="userStatus">
                     <span className="username">jyfav_conan</span>
@@ -175,7 +220,10 @@ function Mainjiyoung() {
                 </div>
                 <div className="user">
                   <div className="profilePic">
-                    <img src="/images/itzy.jpg" alt="profileImg" />
+                    <img
+                      src={`${process.env.PUBLIC_URL}/images/itzy.jpg`}
+                      alt="profileImg"
+                    />
                   </div>
                   <p className="userStatus">
                     <span className="username">jyfav_itzy</span>
@@ -185,7 +233,10 @@ function Mainjiyoung() {
                 </div>
                 <div className="user">
                   <div className="profilePic">
-                    <img src="/images/baseball.png" alt="profileImg" />
+                    <img
+                      src={`${process.env.PUBLIC_URL}/images/baseball.png`}
+                      alt="profileImg"
+                    />
                   </div>
                   <p className="userStatus">
                     <span className="username">jyfav_baseball</span>
@@ -197,7 +248,10 @@ function Mainjiyoung() {
                 </div>
                 <div className="user">
                   <div className="profilePic">
-                    <img src="/images/flower.jpg" alt="profileImg" />
+                    <img
+                      src={`${process.env.PUBLIC_URL}/images/flower.jpg`}
+                      alt="profileImg"
+                    />
                   </div>
                   <p className="userStatus">
                     <span className="username">jyp_0808</span>

@@ -1,15 +1,30 @@
 const SearchId = (props) => {
   const idData = [
-    { id: "zhwltlr", profile: "/images/zhwltlr.png" },
-    { id: "jyp_0808", profile: "/images/flower.jpg" },
-    { id: "jyinfo_music", profile: "/images/song.jpg" },
-    { id: "jyinfo_dog", profile: "/images/dog.jpg" },
-    { id: "jyinfo_movie", profile: "/images/movie.jpg" },
-    { id: "christmas_soon", profile: "/images/christmas.jpg" },
-    { id: "gonnatrip", profile: "/images/trip.jpg" },
-    { id: "jyfav_conan", profile: "/images/detective.png" },
-    { id: "jyfav_itzy", profile: "/images/itzy.jpg" },
-    { id: "jyfav_baseball", profile: "/images/baseball.png" },
+    { id: "zhwltlr", profile: `${process.env.PUBLIC_URL}/images/zhwltlr.png` },
+    { id: "jyp_0808", profile: `${process.env.PUBLIC_URL}/images/flower.jpg` },
+    {
+      id: "jyinfo_music",
+      profile: `${process.env.PUBLIC_URL}/images/song.jpg`,
+    },
+    { id: "jyinfo_dog", profile: `${process.env.PUBLIC_URL}/images/dog.jpg` },
+    {
+      id: "jyinfo_movie",
+      profile: `${process.env.PUBLIC_URL}/images/movie.jpg`,
+    },
+    {
+      id: "christmas_soon",
+      profile: `${process.env.PUBLIC_URL}/images/christmas.jpg`,
+    },
+    { id: "gonnatrip", profile: `${process.env.PUBLIC_URL}/images/trip.jpg` },
+    {
+      id: "jyfav_conan",
+      profile: `${process.env.PUBLIC_URL}/images/detective.png`,
+    },
+    { id: "jyfav_itzy", profile: `${process.env.PUBLIC_URL}/images/itzy.jpg` },
+    {
+      id: "jyfav_baseball",
+      profile: `${process.env.PUBLIC_URL}/images/baseball.png`,
+    },
   ];
   return (
     <>

@@ -7,7 +7,7 @@ const FeedList = () => {
   const [feedData, setFeedData] = useState([]);
 
   useEffect(() => {
-    fetch("/data/feedData.json")
+    fetch(`${process.env.PUBLIC_URL}/data/feedData.json`)
       .then((response) => response.json())
       .then((result) => setFeedData(result));
   }, []);
